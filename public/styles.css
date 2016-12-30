@@ -1,0 +1,43 @@
+body {
+  background: black;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.img0Div {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.img0 {
+  width: 50%;
+  height: 100%;
+}
+
+.gallery {
+  width: 100%;
+  /*position: absolute;*/
+  display: none;
+}
+.galleryImg {
+  width: 70%;
+}
+
+.divider {
+  width: 75%;
+}
+
+.footnote {
+  display: none;
+  color: grey;
+  margin: 10px;
+  line-height: 26px;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: bold;
+}
